@@ -1,4 +1,4 @@
-async function ssweb(url, fpage = false) {
+async function sshp(url, fpage = false) {
 async function getBrowser(opts = {}) {
     const chromeOptions = {
         headless: true,
@@ -33,4 +33,4 @@ await browser.close()
 return screenshot 
 }
 
-module.exports = ssweb
+module.exports = sshp
